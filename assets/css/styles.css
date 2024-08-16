@@ -9,10 +9,12 @@ header {
     background-color: #063970;
     height: 40px;
     padding: 15px ;
+    
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    
    
 }
 h1 {
@@ -77,24 +79,24 @@ main {
 }
 .Workflow {
     display: flex;
-    text-align: center;
-    font-size: 30px;
+    text-align: right;
+    font-size: 25px;
     line-height: 1.2;
     background-color: #063970;
     color: white;
-    padding: 30px 8% 0;
+    padding: 30px 8% 60px;
     border-color:  #fbf0e4;
     
 
 }
 #contact{
     display: flex;
-    text-align: center;
-    font-size: 30px;
+    text-align: right;
+    font-size: 25px;
     line-height: 1.2;
     background-color: #063970;
     color: white;
-    padding: 30px 8% 0;
+    padding: 30px 8% 60px;
     
 
 }
@@ -106,4 +108,16 @@ main {
     background-color: #063970;
     color: white;
     
+}
+@media screen and (max-width: 768px) {
+    header{
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header nav{
+        flex-direction: column;
+    }
+
 }
